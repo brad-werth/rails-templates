@@ -1,2 +1,18 @@
 Some basic templates for Rails 3. 
+
 template_default will call the others.
+
+
+To use in an existing app, run the following command from the app's root directory:
+
+  rake rails:template LOCATION=http://github.com/brad-werth/rails-templates/raw/master/template_default.rb --trace
+  
+
+To use in a new app, use the following command: 
+
+  does not currently work:
+  rails new APP_NAME --template=http://github.com/brad-werth/rails-templates/raw/master/template_default.rb
+
+  workaround:  
+  rails new APP_NAME
+  rake rails:template LOCATION=http://github.com/brad-werth/rails-templates/raw/master/template_default.rb --trace
