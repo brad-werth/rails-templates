@@ -1,0 +1,2 @@
+Some basic templates for Rails 3. 
+template_default will call the others.
