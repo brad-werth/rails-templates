@@ -5,5 +5,5 @@ test
 spec
 END
 
-git add => '.'
+git :add => '.'
 git :commit => '-m "added heroku slugignore file"'
