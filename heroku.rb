@@ -5,4 +5,4 @@ test
 spec
 END
 
-git :commit => '-m "added heroku .slugignore file" -a'
+git :commit => '-m "added heroku slugignore file" -a'
