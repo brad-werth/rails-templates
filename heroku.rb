@@ -1,5 +1,5 @@
 
-if yes( 'Will this app run on heroku?' )
+if yes?( 'Will this app run on heroku?' )
 
   file '.slugignore' , <<-END
 *.psd
