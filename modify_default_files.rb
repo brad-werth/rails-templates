@@ -1,5 +1,5 @@
 
-run 'echo TODO > README'
+run 'echo TODO : Populate README > README'
 
 run "del \"#{ Rails.root }\\public\\index.html\""
 
